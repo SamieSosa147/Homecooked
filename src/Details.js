@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 
 class Details extends Component {
 	render() {
-		console.log(this.props);
+		
 		return (
 			<section>
-				<div>{this.props.title}</div>
+			<h1>Hello</h1>
 			</section>
 		);
 	}

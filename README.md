@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Find-Your-Lead
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+My app is called Home-cooked. It's a recipe app for people who have a hard time figuring out what to eat. Users can see a massive variety of ingredients by just filtering out what ingredients they have or are willing to buy, or filtering out the cultural (location based) recipes they may lean towards. In the future, I'd like to add a feature so that users can see where people making the same recipe can come together and cook together.
 
-### `npm start`
+## Wireframes
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Home
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Screen Shot 2020-08-04 at 8 20 35 AM](https://media.git.generalassemb.ly/user/28284/files/d42edc00-d62b-11ea-83a6-95ff8ce9bd1e)
 
-### `npm test`
+### Results
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screen Shot 2020-08-04 at 8 21 20 AM](https://media.git.generalassemb.ly/user/28284/files/e4df5200-d62b-11ea-813f-cd17eaaa68b9)
 
-### `npm run build`
+### MVP User Stories
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_**MVP User Stories**_
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- \_As a user, I want to see a listing of all of the foods that include my ingredients.
+- \_As a user, I would like to click on an individual recipe to view its full ingredients.
+- \_As a user, I want to be able to easily navigate through and list of recipes or (outputs).
+- \_As a user, I want to be able to easily filter out a country of origin for my foods.
+- \_As a user, I want to be able to see a picture or image of my food.
+- \_As a user, I want to be able to add the food to a completed checklist.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_**Post MVP Stretch Goals**_
 
-### `npm run eject`
+- \_As a user, I would like to be able to search for others who are attempting the recipe.
+- \_As a user, I would like to be able to create a social blog post that allows others to comment on the recipe.
+- \_As a user, I would like to be able to create a social blog post that allows others to comment and share videos of their attempts.
+- \_As a user, I would like to utilize bootstrap to style my results page.
+- \_As a user, I would like to use react-router to create dynamic pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+{
+meals: [
+{
+strMeal: "Baked salmon with fennel & tomatoes",
+strMealThumb: "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+idMeal: "52959"
+},

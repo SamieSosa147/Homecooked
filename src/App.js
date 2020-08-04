@@ -22,7 +22,7 @@ class App extends React.Component {
 			.then((res) => res.json())
 			.then((json) => {
 				this.setState({ data: json.hits });
-				console.log(this.state.data);
+				// console.log(this.state.data);
 			});
 	};
 	handleSubmit = (event) => {
@@ -40,27 +40,22 @@ class App extends React.Component {
 	render() {
 		return (
 			<section>
-				<nav>{/* <Link to="/home">Home</Link> */}</nav>
 				<div>
-					{/* <Link to="/search"> */}
-
-					<form onSubmit={this.handleSubmit}>
-						<h1>Main Ingredient</h1>
+					<form className='form' onSubmit={this.handleSubmit}>
+						<h1>Home-Cooked</h1>
 						<input
+							className=' search-box'
 							type='text'
 							onChange={this.handleChange}
 							value={this.state.search}
 						/>
-						{/* <Link to="/search"> */}
-						<button type='submit'>submit</button>
-						{/* </Link>     */}
+						<button className='Submit-button' type='submit'>
+							Munch-Time!
+						</button>
 					</form>
 
-					{/* </Link> */}
-					{/* <Route path={"/home"} component={App}/> */}
+					<Home data={this.state.data} />
 				</div>
-				<Home data={this.state.data} />
-				<Route path={'/:title'} Component={Details} />
 			</section>
 		);
 	}

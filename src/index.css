@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.search-box {
+  border: 2px solid;
+  
+ 
+}
+.form{
+  text-align: center;
+  
+}
+
+.Submit-button{
+  cursor: pointer;
+}
+
+.Results {
+display: flex;
 }
