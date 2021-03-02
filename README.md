@@ -1,11 +1,11 @@
-# Find-Your-Lead
+# Homecooked
 
-## Project Description
-
-My app is called Home-cooked. It's a recipe app for people who have a hard time figuring out what to eat. Users can see a massive variety of ingredients by just filtering out what ingredients they have or are willing to buy, or filtering out the cultural (location based) recipes they may lean towards. In the future, I'd like to add a feature so that users can see where people making the same recipe can come together and cook together.
-
-## Wireframes
-
+## Overview
+Homecooked allows users to see a massive variety of ingredients by inputting foods they have at home or cultural cuisines they would like to recreate. With more than 72% of local restaurants modifying their hours of service and employees; Homecooked serves to offer a covid-free dining experience by formulating diverse recipes that mimic foods served in local pre-pandemic restaurants. The recipe generator optimizes queries that are backed by a restful API. 
+## Technical Challenges and Methods
+The application offered many challenges. The first challenge was finding a compatible and maintained Rest API. Most Rest API's come with a variance of problems such as network maintenance, server disconnect, and monthly payments; fortunately, after many hours I selected an API server from TheMealDB.com. After finding an appropriate API, I had to research a way to limit my query selections by customizing parameters on the API's URL. The last challenge I faced was academic rather than technical. The project allowed me to investigate the relationship between React State and Props; I came to the self-defined conclusion that in React, the state and prop act as bridges of concurrent Data. 
+## Design Logic
+The design layer of this application was minimalistic. I wanted to create a google-like frontend layer; a design most people born in the internet age would recognize. Placing the input box (search tab) in the middle of the page permits a feeling of endless variety to the user.  Apart from the page-centered search tab, I wanted to include compartments rather than links on the results page. The compartments produced by Bootstrap would create a blog-type atmosphere catering to Home cook's trendy demographic.
 ### Home
 
 ![Screen Shot 2020-08-04 at 8 20 35 AM](https://media.git.generalassemb.ly/user/28284/files/d42edc00-d62b-11ea-83a6-95ff8ce9bd1e)
@@ -33,7 +33,7 @@ _**Post MVP Stretch Goals**_
 - \_As a user, I would like to utilize bootstrap to style my results page.
 - \_As a user, I would like to use react-router to create dynamic pages.
 
-## API
+## API Strcuture
 
 {
 meals: [
