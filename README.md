@@ -14,24 +14,18 @@ The design layer of this application was minimalistic. I wanted to create a goog
 
 ![Screen Shot 2020-08-04 at 8 21 20 AM](https://media.git.generalassemb.ly/user/28284/files/e4df5200-d62b-11ea-813f-cd17eaaa68b9)
 
-### MVP User Stories
+## Features
 
-_**MVP User Stories**_
+- Deletion or edit of saved recipes   
+- Carousel slides of recipe output 
+- Query filter selections  for recipe origin  
+- Image and title selection of selected recipe 
+- Query results filled with complete ingredients. 
+## Ongoing Intergrations 
 
-- \_As a user, I want to see a listing of all of the foods that include my ingredients.
-- \_As a user, I would like to click on an individual recipe to view its full ingredients.
-- \_As a user, I want to be able to easily navigate through and list of recipes or (outputs).
-- \_As a user, I want to be able to easily filter out a country of origin for my foods.
-- \_As a user, I want to be able to see a picture or image of my food.
-- \_As a user, I want to be able to add the food to a completed checklist.
+- Token system allowing User sign in page.  
+- Comment Box integration with Moment.js  
 
-_**Post MVP Stretch Goals**_
-
-- \_As a user, I would like to be able to search for others who are attempting the recipe.
-- \_As a user, I would like to be able to create a social blog post that allows others to comment on the recipe.
-- \_As a user, I would like to be able to create a social blog post that allows others to comment and share videos of their attempts.
-- \_As a user, I would like to utilize bootstrap to style my results page.
-- \_As a user, I would like to use react-router to create dynamic pages.
 
 ## API Strcuture
 
