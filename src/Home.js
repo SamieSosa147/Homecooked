@@ -7,7 +7,8 @@ import Details from './Details';
 class Home extends Component {
 	render() {
 		return (
-			<div>
+			// Hou comment: you can use a React fragment <></> here instead of creating an unnecessary div tag: https://reactjs.org/docs/fragments.html
+			<>
 				{this.props.data.map((recipe, index) => {
 					return (
 						<Results
@@ -17,8 +18,7 @@ class Home extends Component {
 						/>
 					);
 				})}
-				<div></div>
-			</div>
+			</>
 		);
 	}
 }
